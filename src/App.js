@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <h1>{poke}</h1>
-      <img src={url}></img>
+      <img src={url} alt="No found"></img>
     </div>
   );
 
